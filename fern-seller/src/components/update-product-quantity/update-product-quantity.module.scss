@@ -1,0 +1,146 @@
+.container {
+  flex-direction: column;
+  height: 114px;
+  background-color: #ffffff;
+  box-shadow: 0 3px 6px 1px #00000019;
+  border-radius: 30px;
+  padding: 0 10px;
+  color: #707070;
+
+  .title {
+    font-size: 14px;
+    font-weight: 200;
+    flex: none;
+    padding: 5px;
+  }
+  .optionsBX {
+    padding: 15px;
+    padding-left: 0;
+    .options {
+      position: relative;
+      max-width: 120px;
+      .warehouseBX {
+        flex-direction: column;
+
+        .warehouseTXT {
+          font-size: 10px;
+          align-self: center;
+        }
+      }
+      .optionBD {
+        flex-direction: column;
+        span {
+          font-size: 11px;
+          font-weight: 200;
+        }
+
+        .textBX {
+          position: relative;
+          flex: none;
+          height: 35px;
+          width: 95%;
+          .textBD {
+            min-width: 110px;
+            flex-direction: column;
+            height: 35px;
+            border: 1px solid #d3d3d3;
+            border-radius: 18px;
+            font-family: inherit;
+            font-size: 14px;
+            font-weight: 200;
+            overflow: hidden;
+            position: absolute;
+            top: 0;
+            padding: 0 11px;
+            max-width: 100%;
+
+            div {
+              min-height: 35px;
+              align-items: center;
+              justify-content: space-around;
+
+              span {
+                font-size: 14px;
+                padding-left: 20px;
+              }
+            }
+          }
+
+          .textBD:focus {
+            outline: none;
+          }
+        }
+
+        .dropdownBX {
+          position: relative;
+          flex: none;
+          width: 95%;
+          .dropdownBD {
+            min-width: 110px;
+            flex-direction: column;
+            height: 35px;
+            border: 1px solid #d3d3d3;
+            border-radius: 18px;
+            font-family: inherit;
+            font-size: 14px;
+            font-weight: 200;
+            overflow: hidden;
+            position: absolute;
+            top: 0;
+            padding: 0 11px;
+            max-width: 100%;
+
+            div {
+              min-height: 35px;
+              align-items: center;
+              justify-content: space-around;
+
+              span {
+                font-size: 14px;
+                padding-left: 20px;
+              }
+            }
+          }
+
+          .dropdownBD:focus {
+            outline: none;
+          }
+
+          .dropdownActiveBD {
+            max-height: none;
+            box-shadow: 0 3px 6px 1px #00000019;
+            height: max-content;
+            background-color: #ffffff;
+            height: max-content;
+            border: none;
+          }
+        }
+      }
+    }
+
+    .buttonBX {
+      flex: none;
+      align-items: flex-end;
+      padding-right: 60px;
+      padding-bottom: 15px;
+      .deactiveButton {
+        background-color: gray;
+      }
+      button {
+        cursor: pointer;
+        height: 35px;
+        border-radius: 18px;
+        box-shadow: 0 3px 15px 1px RGBA(20, 146, 137, 0.39);
+        outline: none;
+        border: none;
+        background-color: #009289;
+        font-family: inherit;
+        font-size: 20px;
+        color: #ffffff;
+        min-width: 107px;
+        align-self: center;
+        margin-top: 17px;
+      }
+    }
+  }
+}

@@ -1,0 +1,42 @@
+@use '../../styles/color.scss' as Color;
+
+$selectedColor: #009289;
+
+.container {
+  flex-direction: column;
+  .tabBar {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    flex-direction: row;
+    border-bottom: 1px solid #e0e0e2;
+    margin: 0;
+
+    .tab {
+      font-size: 20px;
+      color: grey;
+      text-align: center;
+      cursor: pointer;
+      min-width: 130px;
+      height: 60px;
+      margin-left: 40px;
+      display: flex;
+      justify-content: center;
+
+      .tabBarText {
+        align-items: center;
+      }
+    }
+
+    .selectedTab {
+      transition: border-width 0.1s linear;
+      color: $selectedColor;
+      border-bottom: 3px solid $selectedColor;
+    }
+  }
+
+  .tabContent {
+    justify-content: center;
+    padding: 10px 0;
+  }
+}

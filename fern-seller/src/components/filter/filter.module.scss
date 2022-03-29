@@ -1,0 +1,50 @@
+.container {
+  flex-direction: column;
+  background-color: #ffffff;
+  box-shadow: 0 3px 6px 1px #00000019;
+  border-radius: 31px;
+  padding: 10px 24.5px;
+
+  .filterHD {
+    flex: none;
+    padding-bottom: 15px;
+
+    label {
+      font-size: 16px;
+      color: #aaaaaa;
+      font-weight: 300;
+    }
+  }
+
+  .filterBD {
+    background-color: #f2f2f2;
+  }
+
+  .filterFT {
+    flex: none;
+    padding: 10px 0;
+
+    .right {
+      label {
+        font-size: 14px;
+        font-weight: 300;
+        color: #707070;
+        margin-left: 40px;
+      }
+    }
+
+    .left {
+      justify-content: flex-end;
+    }
+
+    button {
+      font-family: inherit;
+      outline: none;
+      border: none;
+      background-color: transparent;
+      color: #009289;
+      font-size: 14px;
+      font-weight: 300;
+    }
+  }
+}

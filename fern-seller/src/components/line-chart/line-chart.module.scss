@@ -1,0 +1,32 @@
+.chartBX {
+  flex-direction: column;
+  max-width: 650px;
+
+  .chartHD {
+    justify-content: center;
+    ul {
+      display: flex;
+      flex-direction: row;
+      list-style: none;
+      flex: 1;
+      justify-content: space-around;
+      max-width: 486px;
+
+      li {
+        padding: 0 8px;
+        color: #aaaaaa;
+        font-size: 20px;
+      }
+
+      .focus {
+        color: #009289;
+        border-bottom: 4px solid #009289;
+        padding-bottom: 10px;
+      }
+    }
+  }
+
+  .chartBD {
+    padding-top: 20px;
+  }
+}

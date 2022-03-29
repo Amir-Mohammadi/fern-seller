@@ -1,0 +1,50 @@
+.container {
+  flex-direction: column;
+  background-color: #f2f2f2;
+  padding-bottom: 175px;
+  align-items: center;
+
+  .content {
+    margin-top: 60px;
+    width: 1366px;
+    justify-content: space-between;
+    .sideBX {
+      flex-direction: column;
+      max-width: 260px;
+
+      .box {
+        flex: none;
+        margin-bottom: 18px;
+      }
+    }
+
+    .mainBX {
+      flex-direction: column;
+      max-width: 1085px;
+
+      .box {
+        flex: none;
+        margin-bottom: 18px;
+
+        .row {
+          justify-content: space-between;
+          .addCN {
+            max-width: 346px;
+          }
+
+          .searchCN {
+            max-width: 719px;
+          }
+        }
+
+        .infoBX {
+          justify-content: space-between;
+
+          .infoBD {
+            max-width: 255px;
+          }
+        }
+      }
+    }
+  }
+}

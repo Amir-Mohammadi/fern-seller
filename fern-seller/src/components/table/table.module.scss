@@ -1,0 +1,45 @@
+.tblResponsive {
+  overflow-x: auto;
+
+  table {
+    flex-direction: column;
+    flex: 1;
+    border: none;
+    border-collapse: collapse;
+
+    thead {
+      tr {
+        th {
+          font-size: 12px;
+          padding: 10px 0;
+          background-color: #f2f2f2;
+          color: #707070;
+          text-align: center;
+        }
+      }
+    }
+
+    tbody {
+      padding: 10px 0;
+      font-size: 14px;
+      font-weight: 300;
+      tr {
+        justify-content: space-around;
+        align-items: center;
+        border-bottom: 1px solid #d3d3d3;
+        td {
+          height: 121px;
+          color: #707070;
+          text-align: center;
+          div {
+            justify-content: space-around;
+          }
+        }
+      }
+
+      tr:last-child {
+        border: none;
+      }
+    }
+  }
+}

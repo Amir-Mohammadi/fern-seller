@@ -1,0 +1,41 @@
+.container {
+  justify-content: center;
+  height: 100vh;
+  .content {
+    .shapesBX {
+      flex: 39;
+      background-color: #f2f2f2;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+      .shapesHD {
+        flex: none;
+        flex-direction: column;
+        font-size: 32px;
+        font-weight: bold;
+        align-items: center;
+        height: 185px;
+        justify-content: space-between;
+
+        div:first-child {
+          max-width: 302px;
+        }
+        div {
+          flex: none;
+        }
+      }
+
+      .shapesBD {
+        width: 545px;
+        max-height: 562px;
+        margin-bottom: 100px;
+      }
+    }
+
+    .authBX {
+      flex: 61;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}

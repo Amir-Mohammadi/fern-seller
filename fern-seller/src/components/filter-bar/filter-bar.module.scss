@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: #f2f2f2;
+  padding: 0 25px;
+
+  .title {
+    display: flex;
+    flex-direction: row;
+    font-size: 14px;
+    font-weight: 300;
+    color: #aaaaaa;
+  }
+
+  .filter {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: 5px 0;
+
+    span {
+      display: flex;
+      flex-direction: row;
+      margin-right: 10px;
+      margin-bottom: 5px;
+      padding: 4px 0;
+      height: 23px;
+      width: 111px;
+      background-color: #d3d3d3;
+      align-items: center;
+      justify-content: space-around;
+      color: #707070;
+      font-size: 14px;
+      font-weight: lighter;
+      cursor: pointer;
+    }
+  }
+}

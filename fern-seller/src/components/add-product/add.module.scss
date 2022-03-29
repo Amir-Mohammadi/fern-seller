@@ -1,0 +1,35 @@
+.container {
+  flex-direction: row;
+  padding: 0 23px;
+  width: 346px;
+  max-height: 114px;
+  background-color: #ffffff;
+  border-radius: 31px;
+  box-shadow: 0 3px 6px 1px #00000019;
+
+  .title {
+    font-size: 20px;
+    color: #707070;
+    align-items: center;
+    padding-right: 20px;
+  }
+  .icon {
+    display: flex;
+    flex: none;
+    align-items: center;
+    justify-content: center;
+
+    button {
+      display: flex;
+      padding: 14.5px;
+      background-color: #009289;
+      border-radius: 15px;
+      box-shadow: 0 3px 15px 1px RGBA(20, 146, 137, 0.39);
+      border: none;
+    }
+  }
+}
+
+.icon button:focus {
+  outline: none;
+}

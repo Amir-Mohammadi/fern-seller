@@ -1,0 +1,22 @@
+.container {
+  position: relative;
+  flex: none;
+  width: 15px;
+  height: 15px;
+   
+  .badge {
+    position: relative;
+    
+    border-radius: 50%;
+    justify-content: center;
+    
+    background-color: #DB0060;
+    color: #f2f2f2;
+
+    .span {
+        
+      position: absolute;
+      
+    }
+  }
+}

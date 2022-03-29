@@ -1,0 +1,90 @@
+@use '../../constants/color.ts' as Color;
+
+.gSuccess {
+  background-image: linear-gradient(to right, transparent, #009289);
+}
+
+.gPrimary {
+  background-image: linear-gradient(to right, transparent, #24afff);
+}
+
+.gDanger {
+  background-image: linear-gradient(to right, transparent, #db0060);
+}
+
+.gWarning {
+  background-image: linear-gradient(to right, transparent, #ff9124);
+}
+
+.container {
+  flex-direction: column;
+
+  .alert {
+    background-image: linear-gradient(to right, transparent, #aaaaaa);
+    flex: none;
+    border-radius: 5000px;
+    padding: 16.5px 30px;
+
+    span {
+      font-size: 20px;
+      color: #ffffff;
+    }
+  }
+
+  .bottom {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding-top: 12px;
+
+    .rightBX {
+      max-width: 49%;
+      background-color: #ffffff;
+      flex-direction: column;
+      box-shadow: 0 3px 6px 1px #00000019;
+      border-radius: 30px;
+      height: min-content;
+      padding: 23px 10px;
+
+      .chart {
+        height: 96px;
+
+        border-bottom: 1px solid #d3d3d3;
+        .title {
+          flex-direction: column;
+          justify-content: center;
+          padding-right: 20px;
+          .info {
+            font-size: 16px;
+            font-weight: lighter;
+            color: #707070;
+            flex: none;
+          }
+
+          .value {
+            margin-top: 8px;
+            flex: none;
+            font-size: 16px;
+            color: #707070;
+          }
+        }
+
+        .icon {
+          flex-direction: row;
+          flex: none;
+          justify-content: flex-end;
+          align-items: flex-end;
+          padding-bottom: 4px;
+          span {
+            flex: none;
+            height: 24px;
+          }
+        }
+      }
+
+      .chart:last-child {
+        border: none;
+      }
+    }
+  }
+}

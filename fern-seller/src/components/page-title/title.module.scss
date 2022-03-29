@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  flex: none;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 15px  0;
+
+  .title {
+    display: flex;
+    flex: none;
+    flex-direction: row;
+    font-size: 16px;
+    color: #707070;
+  }
+
+  .text {
+    display: flex;
+    flex: none;
+    flex-direction: row;
+    color: #707070;
+    font-weight: lighter;
+  }
+}

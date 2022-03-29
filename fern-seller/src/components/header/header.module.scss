@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  background-color: #f2f2f2;
+  align-items: center;
+  flex-direction: column;
+
+  .headerBX {
+    height: 143px;
+    width: 1378px;
+    
+
+    .rightSide {
+      font-size: 20px;
+      color: #707070;
+      align-items: center;
+    }
+    .leftSide {
+      max-width: 208px;
+    }
+  }
+}

@@ -1,0 +1,39 @@
+.container {
+  flex-direction: column;
+  background-color: #f2f2f2;
+  padding-bottom: 175px;
+
+  .content {
+    flex-direction: column;
+    align-items: center;
+   
+    .grid {
+      width: 1366px;
+      justify-content: space-between;
+      .sideBX {
+        flex-direction: column;
+        max-width: 260px;
+        margin-top: 65px;
+        .box {
+          flex: none;
+          margin-bottom: 18px;
+        }
+      }
+
+      .mainBX {
+        flex-direction: column;
+        max-width: 1085px;
+
+        .box {
+          flex: none;
+          margin-bottom: 18px;
+
+          .row {
+            justify-content: space-between;
+          }
+
+        }
+      }
+    }
+  }
+}
